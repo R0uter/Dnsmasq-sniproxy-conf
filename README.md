@@ -7,9 +7,9 @@ Now I put my sni.conf here,so you can copy that.
 Note:Change the 0.0.0.0 to your sniproxy server's IP address! 
 
 Updated:
-add youtube.com
-add twitter.com
-add facebook.com
-add google.com
-add gmail.com
-add ......
+  add youtube.com
+  add twitter.com
+  add facebook.com
+  add google.com
+  add gmail.com
+  add ......
