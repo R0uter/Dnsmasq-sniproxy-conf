@@ -7,6 +7,9 @@ Now I put my sni.conf here,so you can copy that.
 Note:Change the 0.0.0.0 to your sniproxy server's IP address! 
 
 Updated:
+
+  add blogspot.com
+  
   add digital ocean css cdn
   
   add youtube.com
