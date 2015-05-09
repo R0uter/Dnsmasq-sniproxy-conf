@@ -9,6 +9,8 @@ Note:Change the 0.0.0.0 to your sniproxy server's IP address!
 
 Updated:
 
+  add instagram.com
+
   add sourceforge.com
 
   add blogspot.com
