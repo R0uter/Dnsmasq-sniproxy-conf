@@ -9,6 +9,10 @@ Note:Change the 0.0.0.0 to your sniproxy server's IP address!
 
 Updated:
 
+  add google-analytics
+
+  fix a google's domain
+
   add instagram.com
 
   add sourceforge.com
