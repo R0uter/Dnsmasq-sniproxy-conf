@@ -9,6 +9,8 @@ Note:Change the 0.0.0.0 to your sniproxy server's IP address!
 
 Updated:
 
+  add youtu.be
+
   add google-analytics
 
   fix a google's domain
