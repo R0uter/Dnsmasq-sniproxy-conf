@@ -1,37 +1,29 @@
-# sni.conf
+## sni.conf
 sni.conf is a configuration of dnsmasq.
 
-If you want to use dnsmasq+sniproxy plan to against the "Girl Friend Wall",you will need write the /etc/dnsmasq.d/sni.conf .
+If you want to use dnsmasq+sniproxy plan to against the "Girl Friend Wall",you will need  `/etc/dnsmasq.d/sni.conf` .
 
-Now I put my sni.conf here,so you can copy that.
 
-Note:Change the 0.0.0.0 to your sniproxy server's IP address! 
+## gfwlist2dnsmasq-sni-conf.py
 
-Updated:
+I didn't wrote this code,it based on https://github.com/cokebar/gfwlist2dnsmasq !
 
-  add youtu.be
+## How to use 
+gfwlist2dnsmasq-sni-conf.py is a tool aim to convert gfwlist into sni.conf ,just use `python gfwlist2dnsmasq-sni-conf.py` to start it.
 
-  add google-analytics
+It will auto download the latest gfwlist and execute convert.
 
-  fix a google's domain
+But ensure set your SNI Proxy Server IP before run the code. Edit `gfwlist2dnsmasq-sni-conf.py` find like this:
 
-  add instagram.com
 
-  add sourceforge.com
+`sni = '127.0.0.1'`
 
-  add blogspot.com
-  
-  add digital ocean css cdn
-  
-  add youtube.com
-  
-  add twitter.com
-  
-  add facebook.com
-  
-  add google.com
-  
-  add gmail.com
-  
-  add ......
-  
+Change `127.0.0.1` to your SNI Proxy Server IP.
+
+##And
+
+You can feel free to download the pre-generated sni.conf if your do not need updated version of gfwlist.
+
+:)
+
+
