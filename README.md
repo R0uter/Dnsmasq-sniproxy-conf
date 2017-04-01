@@ -20,7 +20,7 @@ But ensure set your SNI Proxy Server IP before run the code. Edit `gfwlist2dnsma
 
 Change `127.0.0.1` to your SNI Proxy Server IP.
 
-##And
+## And
 
 Feel free to download the pre-generated sni.conf if you r not need updated version of gfwlist.
 
